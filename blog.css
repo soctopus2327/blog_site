@@ -1,6 +1,6 @@
 .header{
     grid-area: header;
-    background-color: #D0A2F7;
+    background-color: #D0A2F5;
     display: inline-block;
     
 }
@@ -17,7 +17,7 @@
 
 .footer{
     grid-area: footer;
-    background-color: #D0A2F7;
+    background-color: #D0A2F5;
     display: grid;
     grid-template-areas: 
     'footright footright footleft footleft'
@@ -106,7 +106,7 @@ body{
 
 
 .topnav {
-    background-color: #D0A2F7;
+    background-color: #D0A2F5;
     overflow: hidden;
   }
 
