@@ -1,0 +1,137 @@
+.header{
+    grid-area: header;
+    background-color: #D0A2F7;
+    display: inline-block;
+    
+}
+
+/* .footright{
+    grid-area: footright;
+}
+
+.footleft{
+    grid-area:footleft;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #D0A2F7;
+    display: grid;
+    grid-template-areas: 
+    'footright footright footleft footleft'
+    'footright footright footleft footleft'
+    'footright footright footleft footleft';
+    height: auto;
+} */
+
+.right{
+    grid-area: right;
+    background-color: #DCBFFF;
+    justify-content: center;
+    text-align: center;
+}
+
+.right img{
+    height: 3rem;
+    width: auto;
+    margin: 0.5rem;
+}
+
+.right img:hover{
+    height: 3.5rem;
+    width: auto;
+    margin: 0rem;
+    opacity: 0.7;
+}
+
+.main{
+    grid-area: main;
+    background-color: #E5D4FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.post{
+    border: 0.1rem solid;
+    border-radius: 3%;
+    border-color: 
+    rgb(60, 60, 60);
+    height: auto;
+    width: auto;
+    max-width: 20vw;
+    min-width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    padding-top: 0.2rem;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #cfa2f7cb
+}
+
+.post:hover{
+    background-color: #cfa2f754
+}
+
+.main img{
+    height: auto;
+    width: auto;
+    max-width: 10rem;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header header header header'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right'
+    'main main main main main main main main right';
+    /* 'footer footer footer footer footer footer footer footer footer'; */
+    background-color: #F1EAFF;
+    height: 100vh;
+}
+
+
+.topnav {
+    background-color: #D0A2F7;
+    overflow: hidden;
+  }
+
+.topnav a {
+float: left;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #d9c1ee;
+color: black;
+}
+
+.topnav a.active {
+background-color: #ab54f7;
+color: white;
+}
+
+.map{
+    position: right;
+    height: 15rem;
+    width: auto;
+    margin: 1rem;
+}
